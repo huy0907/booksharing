@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:"OpenSans-Regular";
+}
+@font-face{
+	font-family:"OpenSans-Bold";
+	src: url('font/OpenSans-Bold.ttf');
+}
+@font-face{
+	font-family:"OpenSans-Regular";
+	src: url('font/OpenSans-Regular.ttf');
+}
+.clear{
+	clear: both;
+}
+header{
+	margin: 10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+header h3{
+	font-family: "font/OpenSans-Bold";
+	font-size: 20px;
+	color: #19438c;
+}
+header p {
+	font-family: "font/OpenSans-Regular";
+	font-size: 17px;
+	color: #19438c;
+}
+header .title{
+	margin-top: 10px;
+}
+header span{
+
+}
+nav a{
+	font-family:"OpenSans-Bold";
+	color: #9b9b9b;
+	font-size: 16px; 
+}
+nav a:hover{
+	color: #19438c !important;
+	border-bottom: 3px solid #ffb536;
+
+}
+nav .active a{
+	color: #19438c !important;
+}
+nav form button{
+	position: absolute !important;
+	right: 20px;
+	
+}
+nav form input {
+	border-radius: 30px !important;
+}
+.section-padding{
+	padding: 40px 10px;
+}
+.clear{
+	clear: both;
+}
+.col-4{
+	width: 25%;
+	border: 100%;
+	float: right;
+}
+.item{
+	margin: 20px;	
+	height: 200px;
+	overflow: hidden;
+}
+.item img{
+	width: 70%;
+	height: 70%;
+	border-radius: 10px;
+	transition: transform 0.2s;
+	}
+/*zoom*/
+/*.zoom {
+	transition: transform 0.2s;
+	cursor:pointer; 
+}
+.zoom:hover {
+  transform: scale(1.5); 
+}*/
+
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(Roboto-Bold.ttf);
+}
+body{
+	font-family: 'Roboto-Bold'
+}
+
+}
+
+}
